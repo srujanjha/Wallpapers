@@ -1,7 +1,6 @@
 c:\users\srujan jha\documents\visual studio 2015\Projects\Wallpapers\Wallpapers\bin\Debug\Wallpapers.exe.config
 c:\users\srujan jha\documents\visual studio 2015\Projects\Wallpapers\Wallpapers\bin\Debug\Wallpapers.exe
 c:\users\srujan jha\documents\visual studio 2015\Projects\Wallpapers\Wallpapers\bin\Debug\Wallpapers.pdb
-c:\users\srujan jha\documents\visual studio 2015\Projects\Wallpapers\Wallpapers\obj\Debug\Wallpapers.csprojResolveAssemblyReference.cache
 c:\users\srujan jha\documents\visual studio 2015\Projects\Wallpapers\Wallpapers\obj\Debug\MainWindow.g.cs
 c:\users\srujan jha\documents\visual studio 2015\Projects\Wallpapers\Wallpapers\obj\Debug\App.g.cs
 c:\users\srujan jha\documents\visual studio 2015\Projects\Wallpapers\Wallpapers\obj\Debug\Wallpapers_MarkupCompile.cache
@@ -12,3 +11,7 @@ c:\users\srujan jha\documents\visual studio 2015\Projects\Wallpapers\Wallpapers\
 c:\users\srujan jha\documents\visual studio 2015\Projects\Wallpapers\Wallpapers\obj\Debug\Wallpapers.csproj.GenerateResource.Cache
 c:\users\srujan jha\documents\visual studio 2015\Projects\Wallpapers\Wallpapers\obj\Debug\Wallpapers.exe
 c:\users\srujan jha\documents\visual studio 2015\Projects\Wallpapers\Wallpapers\obj\Debug\Wallpapers.pdb
+c:\users\srujan jha\documents\visual studio 2015\Projects\Wallpapers\Wallpapers\bin\Debug\Wallpapers.exe.manifest
+c:\users\srujan jha\documents\visual studio 2015\Projects\Wallpapers\Wallpapers\bin\Debug\Wallpapers.application
+c:\users\srujan jha\documents\visual studio 2015\Projects\Wallpapers\Wallpapers\obj\Debug\Wallpapers.exe.manifest
+c:\users\srujan jha\documents\visual studio 2015\Projects\Wallpapers\Wallpapers\obj\Debug\Wallpapers.application

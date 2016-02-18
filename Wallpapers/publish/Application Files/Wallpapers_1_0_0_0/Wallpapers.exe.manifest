@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Wallpapers.exe" version="1.0.0.0" publicKeyToken="0b4da632031bc49d" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="favicon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Wallpapers" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Wallpapers.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Wallpapers.exe" size="401864">
+      <assemblyIdentity name="Wallpapers" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>xtFCyOSQCLPelr4QO8ZBOqP3Lqh1vewB1ez/SUVU75o=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="favicon.ico" size="99678">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>A4fF4vBFXa5PFyB0mdnkV2x9YT93YigZhFLm+W2EhH8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Wallpapers.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6N7MliNbVJSIAIPrecIshMbZ7zEoKLr5SQvud4LDUOw=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=SRUJAN\Srujan Jha" issuerKeyHash="34f20e6dea4ebc01f0c5244d53a235a45dec8c02" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>8sp+xF2xwUV4RGpDMCfLt8nnRppzrDIOIxRr2XK9thQ=</DigestValue></Reference></SignedInfo><SignatureValue>ZOYxeHvgjW0gPvjb9WRY66CxjeYICTEH8Mtwih1tLJ6iQqnqjn5lDIALTiCMmiGpPGGgwy7W7R7Q+kJ7kCcbr5DAn6WhYarPfXyZF2PzR6zZAeyCQ9UlRF8SYe8k1kqmNEgsKB7VxVFkfDjOkiBpE8ohaiZTKj2sUuRkQOJ3nKk=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>qF+sAEgoAXMdNRsS3tNOcG0AT5656c+OM/stmZkHR+GU1OwF9jU9jku3QinIU5BVlMZNj3uXk3hiusWgeHWUa9h6PiOUNu94S/jhlq5XqDhG7FTWa3+XtX2MI49LCA8LfdC7evJhrZZM3T+TgrpKLS4KuxEkbCL1K57O/Tl3mY0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="14b6bd72d96b14230e32ac739a46e7c9b7cb2730436a447845c1b15dc47ecaf2" Description="" Url=""><as:assemblyIdentity name="Wallpapers.exe" version="1.0.0.0" publicKeyToken="0b4da632031bc49d" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=SRUJAN\Srujan Jha</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>G1JpereHwlmZc7TFAEimDbB266YXjsDdmhgXOiGhpv0=</DigestValue></Reference></SignedInfo><SignatureValue>GdoPxg0I2/CtD5kC1fH53nh+H7F/wRaO8MY4NdgXGRU4Fn40la+8DDjWrrMX/whmh3ENLNUcn8fJWIX2I1LcjhN62lXEoXl95XqjobAyi+k8bVjzvMrsne1u5JlzCE0M3uGO5HpOUnSDjkzd5Y8XqbDPYi2uSgEWBkPfnsRnqes=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>qF+sAEgoAXMdNRsS3tNOcG0AT5656c+OM/stmZkHR+GU1OwF9jU9jku3QinIU5BVlMZNj3uXk3hiusWgeHWUa9h6PiOUNu94S/jhlq5XqDhG7FTWa3+XtX2MI49LCA8LfdC7evJhrZZM3T+TgrpKLS4KuxEkbCL1K57O/Tl3mY0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB3TCCAUagAwIBAgIQPbRUGduCo75Lu9W8Nh1QjzANBgkqhkiG9w0BAQsFADAtMSswKQYDVQQDHiIAUwBSAFUASgBBAE4AXABTAHIAdQBqAGEAbgAgAEoAaABhMB4XDTE2MDIxODA2MzYxNVoXDTE3MDIxNzEyMzYxNVowLTErMCkGA1UEAx4iAFMAUgBVAEoAQQBOAFwAUwByAHUAagBhAG4AIABKAGgAYTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAqF+sAEgoAXMdNRsS3tNOcG0AT5656c+OM/stmZkHR+GU1OwF9jU9jku3QinIU5BVlMZNj3uXk3hiusWgeHWUa9h6PiOUNu94S/jhlq5XqDhG7FTWa3+XtX2MI49LCA8LfdC7evJhrZZM3T+TgrpKLS4KuxEkbCL1K57O/Tl3mY0CAwEAATANBgkqhkiG9w0BAQsFAAOBgQCXRHvRJLz78wCggg9Fq33YgrzuvgzaXxkVNec1i98QTOe8jaXqb0a5z4e1c6xGaPaWK+KLfGE31z9xHKx/7eh1FsnJqxJ8lh+0OwIoFhhdAaXEJYHumnZnn8eo8L6+PZ7JkkxLwsYQpUh5OGFdJZtwnQzBvqQljN1pAtpqUsEBJQ==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

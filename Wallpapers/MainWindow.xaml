@@ -9,8 +9,15 @@
     <StackPanel Orientation="Vertical">
         <ScrollViewer Height="270">
             <StackPanel x:Name="Images" Orientation="Vertical">
-                <Image Source="logo.jpg" Height="150" Width="150" Margin="10" MouseEnter="Image_MouseEnter" />
-                <TextBlock Margin="20,20,0,0">Loading...</TextBlock>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                    <Image Source="logo.jpg" Height="150" Width="150" Margin="10" MouseEnter="Image_MouseEnter" />
+                    <StackPanel Orientation="Vertical">
+                        <Image Source="NGC.jpg" Width="150" Margin="10" MouseEnter="Image_MouseEnter" />
+                        <Image Source="NASA.png" Height="100" Width="150" Margin="10" MouseEnter="Image_MouseEnter" />
+                    </StackPanel>
+                </StackPanel>
+                <TextBlock Margin="20,10,0,0">Loading...</TextBlock>
+                <ProgressBar IsIndeterminate="True" Margin="10"/>
             </StackPanel>
         </ScrollViewer>
     </StackPanel>
