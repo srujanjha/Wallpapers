@@ -1,0 +1,17 @@
+﻿<Window x:Class="Wallpapers.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wallpapers"
+        mc:Ignorable="d"
+        Title="Wallpapers for the Day" Height="300" Width="450" Icon="logo.jpg" FontSize="20" ContentRendered="Window_ContentRendered" ResizeMode="NoResize">
+    <StackPanel Orientation="Vertical">
+        <ScrollViewer Height="270">
+            <StackPanel x:Name="Images" Orientation="Vertical">
+                <Image Source="logo.jpg" Height="150" Width="150" Margin="10" MouseEnter="Image_MouseEnter" />
+                <TextBlock Margin="20,20,0,0">Loading...</TextBlock>
+            </StackPanel>
+        </ScrollViewer>
+    </StackPanel>
+</Window>
